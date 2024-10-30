@@ -1,0 +1,77 @@
+body{
+    background: linear-gradient(90deg, rgb(230, 103, 64) 0%, rgb(222, 88, 48) 44%, rgb(222, 95, 57) 100%);
+    max-width: 100vh;
+    padding: 0 25%;
+    
+}
+body>*{
+    background-color: rgb(222, 201, 48);
+    padding: 15px;
+    border:1px solid rgb(222, 88, 48);
+    border-bottom: none;
+    border-top: none;
+    margin: auto;
+    border-radius: 25px;
+}
+figure,h1,h2{
+    text-align: center;
+}
+
+img{
+    text-align: center;
+    display: block;
+    border: 15px solid rgb(222, 88, 48);
+}
+.img{
+    margin-left: 400px;
+    margin-top: -180px;
+    width: 200px;
+    border: 15px solid rgb(222, 88, 48);
+    border-radius: 25px;
+}
+button{
+    transition: background-color 0.3% ease;
+
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+button {
+    background-color: #de8b17;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 25px;
+}
+button:hover {
+    background-color: #45a049;
+    animation: color-change 3s infinite;
+}
+/* Animación para cambiar de color */
+@keyframes color-change {
+    0% {
+        background-color: #4CAF50;
+    }
+    50% {
+        background-color: #FF5733;
+    }
+    100% {
+        background-color: #4CAF50;
+    }
+}
